@@ -1,0 +1,5 @@
+I used a priority queue since it automatically sorts based on priority when adding, so when I poll it until
+it's empty, it already outputs everything in alphabetical order. 
+
+Since I already had access to all of the words in alphabetical order... I didn't know how to create a dictionary
+and then sort by key so instead I made a Word class that implemented Comparable and then sorted by count.
